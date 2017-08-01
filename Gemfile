@@ -9,6 +9,8 @@ gem 'coffee-rails',  '4.2.2'
 gem 'jquery-rails',  '4.3.1'
 gem 'turbolinks',    '5.0.1'
 gem 'jbuilder',      '2.7.0'
+# This is a windows thing.... below...
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
